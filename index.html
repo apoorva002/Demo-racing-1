@@ -46,5 +46,25 @@
   </head>
   <body>
     <script src="sketch.js"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBbITHpeOOhyZSd0oNVPLlgyuLJtfR8vVI",
+    authDomain: "multiplayer-e087e.firebaseapp.com",
+    databaseURL: "https://multiplayer-e087e-default-rtdb.firebaseio.com",
+    projectId: "multiplayer-e087e",
+    storageBucket: "multiplayer-e087e.appspot.com",
+    messagingSenderId: "1033551734179",
+    appId: "1:1033551734179:web:a59894ca8c4840c815e616"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
   </body>
 </html>
